@@ -5,7 +5,7 @@ class ApprovalCard extends Component {
         console.log("I AM THE APPROVAL CARD", this.props.children.props.author)
         return(
             <div className="ui card">
-                <div classname='content'>
+                <div className='content'>
                     {this.props.children}
                 </div>
                 <div className='extra content'>
