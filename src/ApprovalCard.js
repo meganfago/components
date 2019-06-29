@@ -2,10 +2,11 @@ import React, { Component } from 'react';
 
 class ApprovalCard extends Component {
     render(){
+        console.log("I AM THE APPROVAL CARD", this.props.children.props.author)
         return(
             <div className="ui card">
                 <div classname='content'>
-                    Are you working?
+                    {this.props.children}
                 </div>
                 <div className='extra content'>
                     <div className="ui two buttons">
